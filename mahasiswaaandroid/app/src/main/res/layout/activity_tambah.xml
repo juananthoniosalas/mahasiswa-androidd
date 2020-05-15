@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/quizzz"
+    tools:context="com.example.mahasiswaandroid.Tambah">
+
+    <EditText
+        android:id="@+id/judul"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="judul Berita"
+        android:gravity="center"
+        android:fontFamily="@font/moonbold"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/waktu"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Waktu Berita"
+        android:gravity="center"
+        android:fontFamily="@font/moonbold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/penulis"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Penulis Berita"
+        android:gravity="center"
+        android:fontFamily="@font/moonbold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/isi"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Isi Berita"
+        android:fontFamily="@font/moonbold"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/tambah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:background="@drawable/custom_button"
+        android:textColor="#fff"
+        android:fontFamily="@font/moonbold"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="110dp"/>
+    <Button
+        android:id="@+id/kembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:fontFamily="@font/moonbold"
+        android:background="@drawable/custom_button"
+        android:textColor="#fff"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="220dp"/>
+</LinearLayout>
